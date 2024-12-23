@@ -47,8 +47,9 @@ function App() {
   });
 
   return (
-    <div className="min-h-screen flex bg-blue-100">
-      <div className="w-1/4 p-4">
+    <div className="min-h-screen flex bg-blue-100 flex-col md:flex-row">
+      {/* Левая панель */}
+      <div className="w-full md:w-1/4 p-4">
         <div className="rounded-xl p-4 bg-white shadow-md shadow-blue-200">
           <h2 className="text-2xl mb-4 font-bold">Поиск билетов</h2>
           <div className="mb-4">
@@ -116,7 +117,8 @@ function App() {
         ))}
       </div>
 
-      <div className="w-3/4 p-4 overflow-y-auto pl-16">
+      {/* Правая панель */}
+      <div className="w-full md:w-3/4 p-4 overflow-y-auto md:pl-16">
         <h2 className="text-2xl font-bold mb-4">Доступные билеты</h2>
         {filteredTickets.length === 0 ? (
           <p className="text-xl text-red-500">
@@ -126,9 +128,9 @@ function App() {
           filteredTickets.map((ticket) => (
             <div
               key={ticket.flightId}
-              className="mb-4 p-4 bg-white rounded-lg shadow-md shadow-blue-200 flex w-5/6"
+              className="mb-4 p-4 bg-white rounded-lg shadow-md shadow-blue-200 flex md:w-5/6"
             >
-              <div className="w-1/5 flex flex-col items-center justify-center border-r pr-4">
+              <div className="w-2/5 md:w-1/5 flex flex-col items-center justify-center border-r pr-4">
                 <img
                   src={ticket.img}
                   alt="alt"
@@ -141,10 +143,10 @@ function App() {
                   <span>Купить за {ticket.price} ₽</span>
                 </button>
               </div>
-              <div className="w-4/5 pl-4 flex flex-col">
+              <div className="w-3/5md:w-4/5 pl-4 flex flex-col">
                 <div className="flex justify-center items-start mb-4">
                   <p className="text-center">
-                    <span className="text-lg font-bold">
+                    <span className="md:text-lg font-bold">
                       {ticket.layovers === 0
                         ? "Без пересадок"
                         : `${ticket.layovers} пересадк${
@@ -155,13 +157,13 @@ function App() {
                 </div>
                 <div className="flex justify-between">
                   <div>
-                    <p className="text-4xl font-medium">{ticket.startTime}</p>
-                    <p className="text-xl font-semibold">{ticket.from}</p>
+                    <p className="md:text-4xl font-medium">{ticket.startTime}</p>
+                    <p className="md:text-xl font-semibold">{ticket.from}</p>
                     <p className="text-gray-400">{ticket.startDate}</p>
                   </div>
                   <div>
-                    <p className="text-4xl font-medium">{ticket.endTime}</p>
-                    <p className="text-xl font-semibold">{ticket.to}</p>
+                    <p className="md:text-4xl font-medium">{ticket.endTime}</p>
+                    <p className="md:text-xl font-semibold">{ticket.to}</p>
                     <p className="text-gray-400">{ticket.endDate}</p>
                   </div>
                 </div>
