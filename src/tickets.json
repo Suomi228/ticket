@@ -1,0 +1,122 @@
+[
+    {
+      "flightId": 1,
+      "img": "https://download.logo.wine/logo/Flydubai/Flydubai-Logo.wine.png",
+      "from": "Moscow",
+      "to": "Paris",
+      "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 0,
+      "price": 150.00
+    },
+    {
+      "flightId": 2,
+      "img": "https://1000logos.net/wp-content/uploads/2020/04/Turkish_Airlines_logo.png",
+      "from": "New York",
+      "to": "London",
+      "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 1,
+      "price": 450.00
+    },
+    {
+      "flightId": 3,
+      "img": "https://1000logos.net/wp-content/uploads/2020/04/Turkish_Airlines_logo.png",
+      "from": "Berlin",
+      "to": "Rome",
+      "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 0,
+      "price": 100.00
+    },
+    {
+      "flightId": 4,
+      "img": "https://download.logo.wine/logo/Flydubai/Flydubai-Logo.wine.png",
+      "from": "Tokyo",
+      "to": "Sydney",
+      "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 1,
+      "price": 550.00
+    },
+    {
+      "flightId": 5,
+      "img": "https://download.logo.wine/logo/S7_Airlines/S7_Airlines-Logo.wine.png",
+      "from": "Dubai",
+      "to": "Mumbai",
+      "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 0,
+      "price": 75.00
+    },
+    {
+      "flightId": 6,
+      "img": "https://download.logo.wine/logo/Flydubai/Flydubai-Logo.wine.png",
+      "from": "Los Angeles",
+      "to": "Mexico City",
+      "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 0,
+      "price": 200.00
+    },
+    {
+      "flightId": 7,
+      "img": "https://download.logo.wine/logo/S7_Airlines/S7_Airlines-Logo.wine.png",
+      "from": "Toronto",
+      "to": "Miami",
+     "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 2,
+      "price": 180.00
+    },
+    {
+      "flightId": 8,
+      "img": "https://1000logos.net/wp-content/uploads/2020/04/Turkish_Airlines_logo.png",
+      "from": "Singapore",
+      "to": "Bangkok",
+      "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 0,
+      "price": 120.00
+    },
+    {
+      "flightId": 9,
+      "img": "https://download.logo.wine/logo/Flydubai/Flydubai-Logo.wine.png",
+      "from": "Seoul",
+      "to": "Beijing",
+      "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 3,
+      "price": 300.00
+    },
+    {
+      "flightId": 10,
+      "img": "https://1000logos.net/wp-content/uploads/2020/04/Turkish_Airlines_logo.png",
+      "from": "San Francisco",
+      "to": "Hawaii",
+      "startDate": "9 окт 2018, пт",
+      "endDate": "10 окт 2018, пт",
+      "startTime": "8:00",
+      "endTime": "12:00",
+      "layovers": 3,
+      "price": 400.00
+    }
+]
