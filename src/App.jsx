@@ -48,7 +48,6 @@ function App() {
 
   return (
     <div className="min-h-screen flex bg-blue-100 flex-col md:flex-row">
-      {/* Левая панель */}
       <div className="w-full md:w-1/4 p-4">
         <div className="rounded-xl p-4 bg-white shadow-md shadow-blue-200">
           <h2 className="text-2xl mb-4 font-bold">Поиск билетов</h2>
@@ -116,8 +115,6 @@ function App() {
           </div>
         ))}
       </div>
-
-      {/* Правая панель */}
       <div className="w-full md:w-3/4 p-4 overflow-y-auto md:pl-16">
         <h2 className="text-2xl font-bold mb-4">Доступные билеты</h2>
         {filteredTickets.length === 0 ? (
